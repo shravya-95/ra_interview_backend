@@ -12,9 +12,9 @@ import json
 def getDbConn():
     #connect to the db and return the connection object
     conn = mysql.connector.connect(
-        host="gamedev.cuvz7uycffu1.us-east-1.rds.amazonaws.com",
-        user="root",
-        password="rootroot",
+        host="dummy",
+        user="dummy",
+        password="dummy",
         database = "game"
     )
 
